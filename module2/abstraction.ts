@@ -24,7 +24,7 @@ class ToyotaCar extends Car{
 const car1 = new ToyotaCar()
 car1.startEngine()
 car1.startEngine()
-car1.move()
+
 
 
 // 
