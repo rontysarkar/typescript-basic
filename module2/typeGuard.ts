@@ -10,7 +10,7 @@ const addNumberOrString = (param1:Add1,param2:Add1):Add1=>{
     if(typeof param1 ==='number' && typeof param2 === 'number'){
         return param1 + param2;
     }else{
-        return param1.toString() + param2.toString()
+        return param1.toString() + param2.toString
     }
 }
 

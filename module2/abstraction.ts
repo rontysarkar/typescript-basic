@@ -1,31 +1,31 @@
 {
-// 
+    // 
 
-abstract class Car {
-   abstract startEngine():void;
-   abstract stopEngine():void;
-   abstract move():void;
-}
-
-class ToyotaCar extends Car{
-    startEngine(): void {
-        console.log("car engine are starting");
+    abstract class Car {
+        abstract startEngine(): void;
+        abstract stopEngine(): void;
+        abstract move(): void;
     }
 
-    stopEngine(): void {
-        console.log('car engine are stop ');
+    class ToyotaCar extends Car {
+        startEngine(): void {
+            console.log("car engine are starting");
+        }
+
+        stopEngine(): void {
+            console.log('কার স্ ');
+        }
+
+        move(): void {
+            console.log('car engine are move');
+        }
     }
 
-    move(): void {
-        console.log('car engine are move');
-    }
-}
-
-const car1 = new ToyotaCar()
-car1.startEngine()
-car1.startEngine()
+    const car1 = new ToyotaCar()
+    car1.startEngine()
+    car1.startEngine()
 
 
 
-// 
+    // 
 }
